@@ -1,4 +1,4 @@
-﻿namespace PCParts.API.Model
+﻿namespace PCParts.API.Models
 {
     public class PartDetailDTO
     {
@@ -11,6 +11,7 @@
         public string[]? ImageUrls { get; set; }
         public string[]? Details { get; set; }
         public string? AdditionalInfo { get; set; }
+        public bool InStock { get; set; }
 
     }
 }

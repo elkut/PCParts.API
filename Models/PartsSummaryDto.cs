@@ -1,4 +1,4 @@
-﻿namespace PCParts.API.Model
+﻿namespace PCParts.API.Models
 {
     public class PartsSummaryDto
     {
